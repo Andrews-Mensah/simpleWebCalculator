@@ -37,6 +37,6 @@ app.post('/result', async (req, res) => {
 
 });
 
-app.listen(3008, () => {
+app.listen(3007, () => {
     console.log('Server is up!!!');
 });
