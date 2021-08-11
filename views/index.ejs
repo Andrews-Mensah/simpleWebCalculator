@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator </title>
+</head>
+<body>
+    <form action="/result" method="POST">
+        <h1>Do Your Single Calculator Below</h1><br>
+        <label for="operation">Operations</label><br>
+        <select name="operation" id="operation">
+            <option value="add"> Add </option>
+            <option value="product"> Product </option>
+        </select><br><br>
+        <label for="First-Number">First Number</label><br>
+        <input type="number" name="firstNumber" id="firstNumber"><br><br>
+        <label for="Second-Number"> Second Number </label><br>
+        <input type="number" name="secondNumber" id="secondNumber"><br><br>
+        <input type="submit" value=" Get Output">
+    </form>
+</body>
+</html>
